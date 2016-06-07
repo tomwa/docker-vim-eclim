@@ -32,7 +32,7 @@ WORKDIR /home/docker
 #    git clone --recursive https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe && \
 
 # Checkout my vimrc
-RUN (git clone git://github.com/snowch/vimrc.git ~/.vim && \
+RUN (git clone git://github.com/tomwa/vimrc.git ~/.vim && \
     mkdir ~/.vim/plugin && \
     ln -s ~/.vim/.vimrc ~/.vimrc && \
     git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim && \
